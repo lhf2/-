@@ -1,0 +1,143 @@
+/*�����*/
+.activity-public .fp-section1 .banner .bg-box{
+    background: url("../images/hd1.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.activity-public .fp-section2 .banner .bg-box{
+    background: url("../images/hd2.png") no-repeat center center!important;
+    background-size:cover!important;
+}
+.activity-public .fp-section3 .banner .bg-box{
+    background: url("../images/hd3.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.activity-public .fp-section4 .banner .bg-box{
+    background: url("../images/hd4.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.activity-public .fp-section1 .img_detail p{
+    left: 0;
+    opacity: 1;
+}
+/*���ϴ���*/
+.online .fp-section1 .banner .bg-box{
+    background: url("../images/xs1.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.online .fp-section2 .banner .bg-box{
+    background: url("../images/xs2.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.online .fp-section3 .banner .bg-box{
+    background: url("../images/xs3.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.online .fp-section1 .banner-inner .img_detail{
+    background: none;
+}
+.online .fp-section1 .banner-inner .img_detail,.online .fp-section3 .banner-inner .img_detail{
+    left: auto;
+    right: 4%!important;
+}
+.online .fp-section2 .banner-inner .img_detail{
+    right: auto;
+    left: 6%!important;
+}
+.online .fp-section1 .img_detail h2 span{
+    color: #31333A;
+}
+.online .fp-section1 .img_detail p{
+    left: 0;
+    opacity: 1;
+    color: #31333A;
+}
+/*�ڰױ�������*/
+.img_detail.bg-black,.img_detail.bg-white{
+    font-family: "FZXiYuan-M01S";
+    padding: 15px;
+}
+.img_detail.bg-black{
+    background: rgba(0,0,0,0.5);
+}
+.img_detail.bg-white{
+    background: rgba(255,255,255,0.5);
+}
+.img_detail.bg-white h2 span,.img_detail.bg-white p{
+    color: #31333A;
+}
+.img_detail.bg-black h2 span,.img_detail.bg-black p{
+    color: #fff;
+}
+/*********************************************************/
+/*���´���*/
+.offline .fp-section1 .banner .bg-box{
+    background: url("../images/xx1.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section2 .banner .bg-box{
+    background: url("../images/xx2.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section3 .banner .bg-box{
+    background: url("../images/xx3.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section4 .banner .bg-box{
+    background: url("../images/xx4.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section5 .banner .bg-box{
+    background: url("../images/xx5.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section6 .banner .bg-box{
+    background: url("../images/xx6.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section7 .banner .bg-box{
+    background: url("../images/xx7.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section8 .banner .bg-box{
+    background: url("../images/xx8.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.offline .fp-section1 .img_detail h2 span,.offline .fp-section1 .img_detail p{
+    left: 0;
+    opacity: 1;
+    color: #31333A;
+}
+/* .offline .fp-section2 .img_detail{
+    right: auto;
+    left: 6%!important;
+} */
+/*����Ӫ��*/
+.digital-market .fp-section1 .banner .bg-box{
+    background: url("../images/sz1.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.digital-market .fp-section2 .banner .bg-box{
+    background: url("../images/sz2.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.digital-market .fp-section3 .banner .bg-box{
+    background: url("../images/sz3.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.digital-market .fp-section4 .banner .bg-box{
+    background: url("../images/sz4.jpg") no-repeat center center!important;
+    background-size:cover!important;
+}
+.digital-market .fp-section1 .img_detail{
+    left: auto;
+    right: 4%!important;
+}
+.digital-market .fp-section1 .img_detail h2 span,.digital-market .fp-section1 .img_detail p{
+    left: 0;
+    opacity: 1;
+    color: #000;
+}
+.digital-market .fp-section2 .img_detail{
+    left: 6%!important;
+    right: auto;
+}

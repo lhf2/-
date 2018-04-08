@@ -1,0 +1,160 @@
+body{font-size: 16px; font-family: "微软雅黑";}
+*{padding: 0;margin: 0;}
+*:focus {outline: none}
+li{list-style: none;}
+a{text-decoration: none;color: #333}
+a:hover{text-decoration: none;}
+img{border: none; display: block;}
+body,html{height: 100%;}
+.back{ position: fixed; left: 0; top: 0; color: #fff; height: .8rem; width: .8rem; text-align: center; z-index: 999; line-height: .8rem; background:url(../images/rtn.png) no-repeat center center; background-size: .2rem; }
+.off{-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: gray; color: #ccc !important;}
+.super_vague{ -moz-filter: blur(5px);-webkit-filter: blur(5px);-o-filter: blur(5px);-ms-filter: blur(5px);filter: blur(5px);}
+.w100{width: 100%;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clearfloat{zoom:1} 
+/*flex*/
+.flex_center{ display: flex; align-items: center;}
+.flex_center_y{ display: flex; justify-content: space-between; align-items: center; flex-direction: column;}
+.flex_between{ align-items: center; }
+
+.flex{display: flex;-webkit-display: flex; }
+.flex-column{flex-direction: column;-webkit-flex-direction: column}
+.justify-content-center{-webkit-justify-content: center;justify-content: center;}
+.justify-content-space-between{-webkit-justify-content: space-between;justify-content: space-between;}
+.justify-content-space-around{-webkit-justify-content: space-around;justify-content: space-around;}
+.align-items-center{ -webkit-align-items: center;align-items: center; }
+
+.w1200{
+    width: 1200px !important;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/*超出隐藏*/
+.text-overflow {
+	display:block;
+	word-break:keep-all;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+/*头部*/
+.header{
+	height: 74px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9;
+	width: 100%;
+}
+.header .logo{
+	padding: 13px 20px;
+	width: 150px;
+	height: 48px;
+	background: rgba(255,255,255,.5);
+	margin-left: 23px;
+	position: absolute;
+	z-index: 2;
+}
+
+.header .logo img{
+	width: 150px;
+}
+
+.header .head-menu{
+	background: url(../images/hd_bg01.png);
+	width: 100%;
+	height: 74px;
+	position: absolute;
+	margin-top: -120%;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+.header .nav {
+	float: right;
+	margin: 20px 0 0;
+	padding: 0 27px 0 0;
+	display: block;
+}
+.header .nav .list{
+	overflow: hidden;
+}
+.header .nav .list> li {
+	float: left;
+	font-size: 13px;
+	line-height: 27px;
+	padding: 0px 26px;
+}
+.header .nav .list> li > h2 {
+	/*    position: relative;
+        z-index: 2;*/
+	font-weight: normal;
+}
+.header .nav .list> li > h2 a.tit {
+	display: block;
+	color: #fff;
+	height: 34px;
+}
+.header .nav .list> li > h2 span {
+	text-transform: uppercase;
+}
+.header .nav .list> li > h2 a.tit span{
+	display: block;
+	line-height: 17px;
+	font-size: 14px;
+}
+.header .nav .list > li > h2 a.tit .en {
+	font-size: 10px;
+	padding-top: 2px;
+}
+.header .nav .list > li:hover h2 a.tit, .header .nav .list > .active h2 a.tit{
+	color: #fff;
+	border-bottom: 4px solid #fff;
+	padding-bottom: 16px;
+}
+/*foot*/
+.footer {
+	/*position:absolute;*/
+	/*bottom: 0;*/
+	border-top: 1px solid #f2f2f2;
+	background: #222831;
+	width: 100%;
+}
+.footer .footer-nav{
+	overflow: hidden;
+	width: 100%;
+	padding: 3% 0px;
+	position: relative;
+}
+.footer .footer-nav .nav-left{
+	width: 70%;
+	padding: 0 8%;
+}
+.footer .footer-nav .nav-left,.footer .footer-nav .nav-right{
+	float: left;
+}
+.footer .footer-nav .nav-left li{
+	float: left;
+	margin: 0 50px;
+	cursor: pointer;
+}
+.footer .footer-nav .nav-left li span{
+	font-size: 14px;
+	display: block;
+	color: #fff;
+}
+.footer .footer-nav .nav-left li span.span02{
+	margin-top: 5px;
+}
+.footer .footer-nav .nav-right li{
+	float: left;
+	margin-right: 20px;
+}
+.footer .copy{
+	color: #fff;
+	font-size: 12px;
+	line-height: 36px;
+	text-align: center;
+	border-top: 1px solid #3F4E63;
+}
